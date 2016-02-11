@@ -1,0 +1,294 @@
+******************************START TEST - LeanSwiftFormFilling.xls / eConnectFormFilling******************************
+Opening the Firefox driver
+Clearing temp values
+Maximizing the window
+Navigating to the URL: http://54.201.104.110/magento/qa/env-ee-automation/index.php/admin/
+Entering the text: magadmin in the textbox: Id_AdminLoginPage_UserName_TextBox
+Entering the text: Lean5226 in the textbox: Id_AdminLoginPage_Password_TextBox
+Clicking the object:Xpath_AdminLoginPage_Login_Button
+Clicking the object:Xpath_IncomingMessage_Close_Button
+Clicking the object:Xpath_DashboardPage_System_Link
+Including hard delay
+Clicking the object:Xpath_DashboardPage_Configurations_Link
+Verifying the attribute: title of element: Id_ConfigurationsPage_LeanSwift_Image with expected value: LeanSwift
+Element's attribute value is matched with expected value
+Clicking the object:Xpath_ConfigurationsPage_eConnect_SubMenuText
+Verifying the text of element: Xpath_eConnectPage_eConnect_HeaderText with expected value: eConnect
+Element's text: eConnect is matched with expected value: eConnect
+Clearing the text field:Id_eConnectPage_GeneralEmail_TextBox
+Entering the text: jagadeesan.devan@leanswift.com in the textbox: Id_eConnectPage_GeneralEmail_TextBox
+Clearing the text field:Id_eConnectPage_GeneralServiceURL_TextBox
+Entering the text: http://54.201.104.110:3737/com.leanswift.connector_v15.2/rest/ in the textbox: Id_eConnectPage_GeneralServiceURL_TextBox
+Selecting the input: Yes in the element: Id_eConnectPage_GeneralUseERPOrdHist_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_GeneralTestMode_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_GeneralDebug_Dropdown
+Clearing the text field:Id_eConnectPage_BasicDataCompany_TextBox
+Entering the text: 330 in the textbox: Id_eConnectPage_BasicDataCompany_TextBox
+Clearing the text field:Id_eConnectPage_BasicDataDivision_TextBox
+Entering the text: BBB in the textbox: Id_eConnectPage_BasicDataDivision_TextBox
+Clearing the text field:Id_eConnectPage_BasicDataFacility_TextBox
+Entering the text: B01 in the textbox: Id_eConnectPage_BasicDataFacility_TextBox
+Clearing the text field:Id_eConnectPage_BasicDataWarehouse_TextBox
+Entering the text: 210 in the textbox: Id_eConnectPage_BasicDataWarehouse_TextBox
+Clearing the text field:Id_eConnectPage_BasicDataPriceList_TextBox
+Entering the text: 02 in the textbox: Id_eConnectPage_BasicDataPriceList_TextBox
+Clearing the text field:Id_eConnectPage_BasicDataCurrency_TextBox
+Entering the text: USD in the textbox: Id_eConnectPage_BasicDataCurrency_TextBox
+Clearing the text field:Id_eConnectPage_BasicDataOrderType_TextBox
+Entering the text: 010 in the textbox: Id_eConnectPage_BasicDataOrderType_TextBox
+Selecting the input: Yes in the element: Id_eConnectPage_AuthenticationoAuth_Dropdown
+Clearing the text field:Id_eConnectPage_AuthenticationWebServiceUserName_TextBox
+Entering the text: eConnectMagento in the textbox: Id_eConnectPage_AuthenticationWebServiceUserName_TextBox
+Clearing the text field:Id_eConnectPage_AuthenticationWebServicePassword_TextBox
+Entering the text: magento5441 in the textbox: Id_eConnectPage_AuthenticationWebServicePassword_TextBox
+Clearing the text field:Id_eConnectPage_AuthenticationClientID_TextBox
+Entering the text: magentoClient in the textbox: Id_eConnectPage_AuthenticationClientID_TextBox
+Clearing the text field:Id_eConnectPage_AuthenticationClientSecret_TextBox
+Entering the text: magento465 in the textbox: Id_eConnectPage_AuthenticationClientSecret_TextBox
+Cleaning up of records matching the elements: Xpath_eConnectPage_ShippingRecord_WebElements
+//tr[@id='row_leanswift_connector_shipping_method_delivery_method']/td[@class='value']/div[1]/table/tbody/tr[*]/td[4]/button
+Clicking the object:Xpath_eConnectPage_ShippingEmptyAddMethod_Button
+Selecting the input: Flat Rate-Fixed in the element: Xpath_eConnectPage_ShippingShippingMethod_Dropdown
+Entering the text: 003 in the textbox: Xpath_eConnectPage_ShippingM3DeliveryMethod_TextBox
+Entering the text: CIF in the textbox: Xpath_eConnectPage_ShippingM3DeliveryTerm_TextBox
+Clearing the text field:Id_eConnectPage_ProdSyncWebsiteName_TextBox
+Entering the text: base in the textbox: Id_eConnectPage_ProdSyncWebsiteName_TextBox
+Clearing the text field:Id_eConnectPage_ProdSyncAttrSetName_TextBox
+Entering the text: Default in the textbox: Id_eConnectPage_ProdSyncAttrSetName_TextBox
+Cleaning up of records matching the elements: Xpath_eConnectPage_ProdSyncM3AttributesRecord_WebElements
+//tr[@id='row_leanswift_connector_sync_product_import']/td[@class='value']/div[1]/table/tbody/tr[*]/td[4]/button
+//tr[@id='row_leanswift_connector_sync_product_import']/td[@class='value']/div[1]/table/tbody/tr[*]/td[4]/button
+//tr[@id='row_leanswift_connector_sync_product_import']/td[@class='value']/div[1]/table/tbody/tr[*]/td[4]/button
+//tr[@id='row_leanswift_connector_sync_product_import']/td[@class='value']/div[1]/table/tbody/tr[*]/td[4]/button
+//tr[@id='row_leanswift_connector_sync_product_import']/td[@class='value']/div[1]/table/tbody/tr[*]/td[4]/button
+//tr[@id='row_leanswift_connector_sync_product_import']/td[@class='value']/div[1]/table/tbody/tr[*]/td[4]/button
+//tr[@id='row_leanswift_connector_sync_product_import']/td[@class='value']/div[1]/table/tbody/tr[*]/td[4]/button
+Clicking the object:Xpath_eConnectPage_ProdSyncM3AttributesEmptyAddMethod_Button
+Selecting the input: description in the element: Xpath_eConnectPage_ProdSyncMagentoAttr_Dropdown1
+Clearing the text field:Xpath_eConnectPage_ProdSyncM3Attr_TextBox1
+Entering the text: Description2 in the textbox: Xpath_eConnectPage_ProdSyncM3Attr_TextBox1
+Clicking the object:Xpath_eConnectPage_ProdSyncM3AttributesAddToEndMethod_Button
+Selecting the input: short_description in the element: Xpath_eConnectPage_ProdSyncMagentoAttr_Dropdown2
+Clearing the text field:Xpath_eConnectPage_ProdSyncM3Attr_TextBox2
+Entering the text: Description2 in the textbox: Xpath_eConnectPage_ProdSyncM3Attr_TextBox2
+Clicking the object:Xpath_eConnectPage_ProdSyncM3AttributesAddToEndMethod_Button
+Selecting the input: weight in the element: Xpath_eConnectPage_ProdSyncMagentoAttr_Dropdown3
+Clearing the text field:Xpath_eConnectPage_ProdSyncM3Attr_TextBox3
+Entering the text: GrossWeight in the textbox: Xpath_eConnectPage_ProdSyncM3Attr_TextBox3
+Clicking the object:Xpath_eConnectPage_ProdSyncM3AttributesAddToEndMethod_Button
+Selecting the input: name in the element: Xpath_eConnectPage_ProdSyncMagentoAttr_Dropdown4
+Clearing the text field:Xpath_eConnectPage_ProdSyncM3Attr_TextBox4
+Entering the text: Name in the textbox: Xpath_eConnectPage_ProdSyncM3Attr_TextBox4
+Clicking the object:Xpath_eConnectPage_ProdSyncM3AttributesAddToEndMethod_Button
+Selecting the input: sku in the element: Xpath_eConnectPage_ProdSyncMagentoAttr_Dropdown5
+Clearing the text field:Xpath_eConnectPage_ProdSyncM3Attr_TextBox5
+Entering the text: ItemNumber in the textbox: Xpath_eConnectPage_ProdSyncM3Attr_TextBox5
+Clicking the object:Xpath_eConnectPage_ProdSyncM3AttributesAddToEndMethod_Button
+Selecting the input: erp_item_nr in the element: Xpath_eConnectPage_ProdSyncMagentoAttr_Dropdown6
+Clearing the text field:Xpath_eConnectPage_ProdSyncM3Attr_TextBox6
+Entering the text: ItemNumber in the textbox: Xpath_eConnectPage_ProdSyncM3Attr_TextBox6
+Clicking the object:Xpath_eConnectPage_ProdSyncM3AttributesAddToEndMethod_Button
+Selecting the input: price in the element: Xpath_eConnectPage_ProdSyncMagentoAttr_Dropdown7
+Clearing the text field:Xpath_eConnectPage_ProdSyncM3Attr_TextBox7
+Entering the text: SalesPrice in the textbox: Xpath_eConnectPage_ProdSyncM3Attr_TextBox7
+Selecting the input: No in the element: Id_eConnectPage_CustConfCreateNewCust_Dropdown
+Clearing the text field:Id_eConnectPage_CustConfCommonCustID_TextBox
+Entering the text: LEAN000001 in the textbox: Id_eConnectPage_CustConfCommonCustID_TextBox
+Selecting the input: No in the element: Id_eConnectPage_ERPCustRegisterEnable_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_SalesEnableOrderComments_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_SalesSendConfirmation_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_SalesDisplayInvoice_Dropdown
+Selecting the input: No in the element: Id_eConnectPage_SalesCapturePaymentOnline_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_OrderChargesTaxTransfer_Dropdown
+Selecting the input: BOX in the element: Id_eConnectPage_OrderChargesTaxChargeCode_Dropdown
+Selecting the input: Charges in the element: Id_eConnectPage_OrderChargesFeeChargeType_Dropdown
+Selecting the input: SHIP1 in the element: Id_eConnectPage_OrderChargesFeeChargeCode_Dropdown
+Clearing the text field:Id_eConnectPage_PaymentsReAuthAmount_TextBox
+Entering the text: 1.00 in the textbox: Id_eConnectPage_PaymentsReAuthAmount_TextBox
+Cleaning up of records matching the elements: Xpath_eConnectPage_PaymentsPayProviderRecord_WebElements
+//tr[@id='row_leanswift_connector_payments_provider']/td[@class='value']/div[1]/table/tbody/tr[*]/td[5]/button
+//tr[@id='row_leanswift_connector_payments_provider']/td[@class='value']/div[1]/table/tbody/tr[*]/td[5]/button
+Clicking the object:Xpath_eConnectPage_PaymentsPayProviderEmptyAddMethod_Button
+Selecting the input: Check / Money order in the element: Xpath_eConnectPage_PaymentsMagentoMethod_Dropdown1
+Selecting the input: CSH in the element: Xpath_eConnectPage_PaymentsM3Terms_Dropdown1
+Selecting the input: CH1 in the element: Xpath_eConnectPage_PaymentsM3Method_Dropdown1
+Clicking the object:Xpath_eConnectPage_PaymentsPayProviderAddToEndMethod_Button
+Selecting the input: Credit Card (saved) in the element: Xpath_eConnectPage_PaymentsMagentoMethod_Dropdown2
+Selecting the input: CCZ in the element: Xpath_eConnectPage_PaymentsM3Terms_Dropdown2
+Selecting the input: CH1 in the element: Xpath_eConnectPage_PaymentsM3Method_Dropdown2
+Selecting the input: Non-stock items in the element: Id_eConnectPage_PaymentsInvoiceFeeChargeType_Dropdown
+Cleaning up of records matching the elements: Xpath_eConnectPage_PaymentsInvoiceFeesRecord_WebElements
+//tr[@id='row_leanswift_connector_payments_invoice_fees']/td[@class='value']/div[1]/table/tbody/tr[*]/td[5]/button
+Clicking the object:Xpath_eConnectPage_PaymentsInvoiceFeesEmptyAddMethod_Button
+Selecting the input: Credit Card (saved) in the element: Xpath_eConnectPage_PaymentsInvoicePayMethod_Dropdown
+Clearing the text field:Xpath_eConnectPage_PaymentsInvoiceFeeAmount_TextBox
+Entering the text: 2.00 in the textbox: Xpath_eConnectPage_PaymentsInvoiceFeeAmount_TextBox
+Selecting the input: INVF1 in the element: Xpath_eConnectPage_PaymentsInvoiceFeeChargeCode_Dropdown
+Selecting the input: NS-INVOICEFEE in the element: Xpath_eConnectPage_PaymentsInvoiceFeeChargeItemNo_Dropdown
+Selecting the input: No in the element: Id_eConnectPage_PaymentsEnableCreditMemo_Dropdown
+Selecting the input: Manual in the element: Id_eConnectPage_PaymentsCCRefundType_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_PriceSyncEnable_Dropdown
+Clearing the text field:Id_eConnectPage_PriceSyncCacheHours_TextBox
+Entering the text: 1.00 in the textbox: Id_eConnectPage_PriceSyncCacheHours_TextBox
+Selecting the input: Yes in the element: Id_eConnectPage_InventorySyncProductLoad_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_InventorySyncAddToCart_Dropdown
+Selecting the input: Yes in the element: Id_eConnectPage_InventorySyncCheckOut_Dropdown
+Clicking the object:Xpath_ConfigurationPage_SaveConfig_Button
+Verifying the text of element: Xpath_ConfigurationPage_SaveConfigSuccessMessage_Text with expected value: The configuration has been saved.
+Element's text: The configuration has been saved. is matched with expected value: The configuration has been saved.
+Including hard delay
+Closing the browser driver
+------------------------------END TEST - LeanSwiftFormFilling.xls / eConnectFormFilling------------------------------
+
+
+
+******************************START TEST - VerifyOrderSync.xls / CompleteOrder******************************
+Opening the Firefox driver
+Clearing temp values
+Maximizing the window
+Navigating to the URL: http://54.201.104.110/magento/qa/env-ee-automation
+Clicking the object:Xpath_HomePage_Account_Link
+Clicking the object:Xpath_HomePage_LogIn_Link
+Entering the text: se.automation188@gmail.com in the textbox: Id_LoginPage_UserName_TextBox
+Entering the text: seleniumreads in the textbox: Id_LoginPage_Password_TextBox
+Clicking the object:Id_LoginPage_Login_Button
+Entering the text: chair 10 in the textbox: Id_AccountPage_Search_TextBox
+Clicking the object:Xpath_AccountPage_Search_Button
+Clicking the object:Xpath_SearchResultPage_AddToCart_Button
+Clearing the text field:Xpath_CartPage_Quantity_TextBox
+Entering the text: 1 in the textbox: Xpath_CartPage_Quantity_TextBox
+Clicking the object:Xpath_CartPage_Update_Button
+Clicking the object:Xpath_CheckOutPage_Checkout_Button
+Clicking the object:Id_CheckOutPage_PayCheckMoney_Radio
+Including hard delay
+Clicking the object:Id_CheckOutPage_Comments_TextArea
+Including hard delay
+Clicking the object:Id_CheckOutPage_PlaceOrder_Button
+Verifying the text of element: Xpath_CommercePage_OrderPlaceConf_Text with expected value: Thank you for your purchase!
+Element's text: THANK YOU FOR YOUR PURCHASE! is matched with expected value: Thank you for your purchase!
+Navigating to the URL: http://54.201.104.110/magento/qa/env-ee-automation/index.php/admin/
+Entering the text: magadmin in the textbox: Id_AdminLoginPage_UserName_TextBox
+Entering the text: Lean5226 in the textbox: Id_AdminLoginPage_Password_TextBox
+Clicking the object:Xpath_AdminLoginPage_Login_Button
+Clicking the object:Xpath_IncomingMessage_Close_Button
+Clicking the object:Xpath_DashboardPage_Sales_Link
+Including hard delay
+Clicking the object:Xpath_DashboardPage_Orders_Link
+Clicking the object:Name_SalesOrderPage_LastestOrder_Checkbox
+Selecting the input: Sync With ERP in the element: Id_SalesOrderPage_SalesAction_Dropdown
+Clicking the object:Xpath_SalesOrderPage_Submit_Button
+Verifying the text of element: Xpath_SalesOrderPage_InitialStatus_Text with expected value: 33-Order sent to warehouse
+Element's text: 33-Order sent to warehouse is matched with expected value: 33-Order sent to warehouse
+Storing the text of element: Xpath_SalesOrderPage_FinalOrderNumber_Text
+Element(s) text stored in temporary value is/are: 
+0001113958
+Storing handle of present window
+Window handle of present window captured is: {27285364-3c0c-4aab-a963-4dc061398955}
+Opening a new tab in the browser: Firefox
+Navigating to the URL: https://KHMA01:Leanswift15@10.29.4.103:42661/mne/index.jsp#
+Including hard delay
+Clicking the object:Id_HomePage_HomeIcon_Button
+Clicking the object:Xpath_HomePage_MenuListFirstItem_Text
+Entering the text: OIS300 in the textbox: Xpath_HomePage_Search_TextBox
+Performing enter keyboard action on element: Xpath_HomePage_SearchIcon_Button
+Clearing the text field:Id_OpenToolPage_OrderNum_TextBox
+Entering stored value: 0001113958 in the element: Id_OpenToolPage_OrderNum_TextBox
+Performing enter keyboard action on element: Id_OpenToolPage_OrderNum_TextBox
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry2_Text with expected value: 33
+Element's text: 33 is matched with expected value: 33
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry3_Text with expected value: 33
+Element's text: 33 is matched with expected value: 33
+Performing the action 'Ctrl+:43' on the element: Xpath_OrderProcessPage_FirstEntry1_Text
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry4_Text with expected value:  
+Element's text:  is matched with expected value:  
+Performing the action 'Ctrl+:32' on the element: Xpath_OrderProcessPage_FirstEntry1_Text
+Including hard delay
+Clicking the object:Xpath_OrderProcessPage_Refresh_Button
+Including hard delay
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry4_Text with expected value: 1
+Element's text: 1 is matched with expected value: 1
+Performing the action 'Ctrl+:11' on the element: Xpath_OrderProcessPage_FirstEntry1_Text
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry1_Text with expected value: 40
+Element's text: 40 is matched with expected value: 40
+Performing the action 'Ctrl+:14' on the element: Xpath_OrderProcessPage_FirstEntry1_Text
+Clicking the object:Id_OrderProcessPage_Actions_Button
+Clicking the object:Xpath_OrderProcessPage_ConnectPackage_Button
+Clearing the text field:Id_OrderProcessPage_PackNum_TextBox
+Entering the text: 123 in the textbox: Id_OrderProcessPage_PackNum_TextBox
+Clicking the object:Id_OrderProcessPage_Packaging_TextBox
+Entering the text: BOX421 in the textbox: Id_OrderProcessPage_Packaging_TextBox
+Clicking the object:Id_OrderProcessPage_PackAdd_Button
+Including hard delay
+Clicking the object:Id_OrderProcessPage_Previous_Button
+Including hard delay
+Clicking the object:Id_OrderProcessPage_Previous_Button
+Including hard delay
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Performing the action 'Ctrl+:16' on the element: Xpath_OrderProcessPage_FirstEntry1_Text
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry1_Text with expected value: 90
+Element's text: 90 is matched with expected value: 90
+Including hard delay
+Clicking the object:Id_OrderProcessPage_Previous_Button
+Including hard delay
+Clicking the object:Id_OrderProcessPage_Previous_Button
+Including hard delay
+Clearing the text field:Id_OpenToolPage_OrderNum_TextBox
+Entering stored value: 0001113958 in the element: Id_OpenToolPage_OrderNum_TextBox
+Performing enter keyboard action on element: Id_OpenToolPage_OrderNum_TextBox
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry2_Text with expected value: 66
+Element's text: 66 is matched with expected value: 66
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry3_Text with expected value: 66
+Element's text: 66 is matched with expected value: 66
+Including hard delay
+Clicking the object:Id_OrderProcessPage_Previous_Button
+Including hard delay
+Clicking the object:Xpath_HomePage_ApplicationsArea_Text
+Clearing the text field:Xpath_HomePage_Search_TextBox
+Entering the text: OIS180 in the textbox: Xpath_HomePage_Search_TextBox
+Including hard delay
+Performing enter keyboard action on element: Xpath_HomePage_SearchIcon_Button
+Clicking the object:Id_InvoicePage_COFromNum_TextBox
+Clearing the text field:Id_InvoicePage_COFromNum_TextBox
+Entering stored value: 0001113958 in the element: Id_InvoicePage_COFromNum_TextBox
+Clicking the object:Id_InvoicePage_COToNum_TextBox
+Clearing the text field:Id_InvoicePage_COToNum_TextBox
+Entering stored value: 0001113958 in the element: Id_InvoicePage_COToNum_TextBox
+Clicking the object:Xpath_InvoicePage_Next_Button
+Including hard delay
+Clicking the object:Id_OrderProcessPage_Previous_Button
+Including hard delay
+Clicking the object:Xpath_HomePage_ApplicationsArea_Text
+Clearing the text field:Xpath_HomePage_Search_TextBox
+Entering the text: OIS300 in the textbox: Xpath_HomePage_Search_TextBox
+Including hard delay
+Performing enter keyboard action on element: Xpath_HomePage_SearchIcon_Button
+Clearing the text field:Id_OpenToolPage_OrderNum_TextBox
+Entering stored value: 0001113958 in the element: Id_OpenToolPage_OrderNum_TextBox
+Performing enter keyboard action on element: Id_OpenToolPage_OrderNum_TextBox
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Including hard delay
+Clicking the object:Xpath_OrderProcessPage_Refresh_Button
+Including hard delay
+Clicking the object:Xpath_OrderProcessPage_FirstEntry1_Text
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry2_Text with expected value: 77
+Element's text: 77 is matched with expected value: 77
+Verifying the text of element: Xpath_OrderProcessPage_FirstEntry3_Text with expected value: 77
+Element's text: 77 is matched with expected value: 77
+Returning to previous tab in the browser: Firefox
+Clicking the object:Name_SalesOrderPage_LastestOrder_Checkbox
+Selecting the input: Sync With ERP in the element: Id_SalesOrderPage_SalesAction_Dropdown
+Clicking the object:Xpath_SalesOrderPage_Submit_Button
+Verifying the text of element: Xpath_SalesOrderPage_InitialStatus_Text with expected value: Complete
+Element's text: Complete is matched with expected value: Complete
+Including hard delay
+Closing the browser driver
+------------------------------END TEST - VerifyOrderSync.xls / CompleteOrder------------------------------
+
+
+

@@ -1,0 +1,22 @@
+******************************START TEST - LeanSwiftFormFilling.xls / eConnectFormFilling******************************
+Opening the Firefox driver
+Clearing temp values
+Maximizing the window
+Navigating to the URL: http://54.201.104.110/magento/qa/env-ee-automation/index.php/admin/
+Entering the text: magadmin in the textbox: Id_AdminLoginPage_UserName_TextBox
+Entering the text: Lean5226 in the textbox: Id_AdminLoginPage_Password_TextBox
+Clicking the object:Xpath_AdminLoginPage_Login_Button
+Clicking the object:Xpath_IncomingMessage_Close_Button
+Clicking the object:Xpath_DashboardPage_System_Link
+Including hard delay
+Clicking the object:Xpath_DashboardPage_Configurations_Link
+Verifying the attribute: title of element: Id_ConfigurationsPage_LeanSwift_Image with expected value: LeanSwift
+Element's attribute value is matched with expected value
+Clicking the object:Xpath_ConfigurationsPage_eConnect_SubMenuText
+Verifying the text of element: Xpath_eConnectPage_eConnect_HeaderText with expected value: eConnect
+Element's text: eConnect is matched with expected value: eConnect
+Clearing the text field:Id_eConnectPage_GeneralEmail_TextBox
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Jagadeesh-PC', ip: '10.28.247.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver
