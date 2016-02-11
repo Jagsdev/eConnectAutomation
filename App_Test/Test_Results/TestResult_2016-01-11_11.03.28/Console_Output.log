@@ -1,0 +1,40 @@
+******************************START TEST - LeanSwiftFormFilling.xls / eConnectFormFilling******************************
+Opening the Firefox driver
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Updating XPIState for {"id":"deskCutv2@gmail.com","syncGUID":"SaXGClxjycAD","location":"winreg-app-global","version":"0.1.13","type":"extension","internalName":null,"updateURL":"https://static.dreamsadnetwork.com/ep/deskv2.update.rdf","updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":"chrome://quick_start/skin/logo.png","icon64URL":null,"defaultLocale":{"name":"FirefixTab","description":"FirefixTab is a firefox extension based on Html5. It provides website fast dial to make you find your favorite websites ASAP, New Tab Start Page, Organize bookmarks, Custom backgrounds, custom dials.","creator":"lightningnewtab.com","homepageURL":"http://www.lightningnewtab.com","developers":["firefoxtab"]},"visible":true,"active":false,"userDisabled":true,"appDisabled":true,"descriptor":"C:\\Users\\Jagadeesh\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\fpv4sxsi.default\\extensions\\deskCutv2@gmail.com","installDate":1451925987459,"updateDate":1451925987459,"applyBackgroundUpdates":1,"bootstrap":false,"size":386498,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[{"locales":["en-US"],"name":"FirefixTab","description":"FirefixTab is a firefox extension based on Html5. It provides website fast dial to make you find your favorite websites ASAP, New Tab Start Page, Organize bookmarks, Custom backgrounds, custom dials.","creator":"lightningnewtab.com","homepageURL":null,"developers":["firefoxtab"]}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"4.0","maxVersion":"99.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0}
+1452490409979	DeferredSave.extensions.json	DEBUG	Save changes
+1452490409979	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1452490409979	addons.xpi-utils	DEBUG	Updating add-on states
+1452490409980	addons.xpi-utils	DEBUG	Writing add-ons list
+1452490409984	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1452490409984	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1452490409984	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1452490409984	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1452490409985	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1452490409985	addons.manager	DEBUG	Starting provider: GMPProvider
+1452490409993	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1452490409993	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1452490409993	addons.manager	DEBUG	Starting provider: PluginProvider
+1452490409993	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1452490409993	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1452490409994	addons.manager	DEBUG	Completed startup sequence
+1452490412137	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1452490412137	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1452490412137	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1452490412597	DeferredSave.extensions.json	DEBUG	Write succeeded
+1452490412597	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1452490412597	DeferredSave.extensions.json	DEBUG	Starting timer
+1452490412616	addons.repository	DEBUG	No addons.json found.
+1452490412616	DeferredSave.addons.json	DEBUG	Save changes
+1452490412618	DeferredSave.addons.json	DEBUG	Starting timer
+1452490412630	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1452490412630	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1452490412631	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1452490412634	DeferredSave.extensions.json	DEBUG	Starting write
+1452490412663	DeferredSave.extensions.json	DEBUG	Write succeeded
+1452490412669	DeferredSave.addons.json	DEBUG	Starting write
+1452490412875	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'Jagadeesh-PC', ip: '192.168.100.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: FirefoxDriver

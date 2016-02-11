@@ -1,0 +1,8 @@
+******************************START TEST - LeanSwiftFormFilling.xls / eConnectFormFilling******************************
+Opening the Firefox driver
+Clearing temp values
+Maximizing the window
+Navigating to the URL: http://54.201.104.110/magento/qa/env-ee-automation/index.php/admin/
+Entering the text: magadmin in the textbox: Id_AdminLoginPage_UserName_TextBox
+Entering the text: Lean5226 in the textbox: Id_AdminLoginPage_Password_TextBox
+Clicking the object:Xpath_AdminLoginPage_Login_Button
